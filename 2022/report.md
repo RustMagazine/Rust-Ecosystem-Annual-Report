@@ -1808,6 +1808,20 @@ Raphl 的建议摘要：
 更多介绍可参考[GaiaX 官方信息](https://developer.aliyun.com/article/1074185)。
 
 
+### taffy：高性能 Rust 驱动的布局库
+
+[taffy](https://github.com/DioxusLabs/taffy) 是一个用 Rust 编写的灵活、高性能、跨平台的 UI 布局库，实现了基于 CSS 的布局算法，0.2.x 版稳定实现了 Flexbox 布局，对 CSS Grid 的支持处于预览状态。
+
+未来计划支持更多的布局算法，详细可以参见 [官方跟踪Issue](https://github.com/DioxusLabs/taffy/issues/28)。
+
+taffy 旨在用作其他 UI 和 GUI 库的依赖项。目前被以下项目所应用：
+
+- [Dioxus](https://dioxuslabs.com/)：一个类似 React 的库，用于使用 Rust 构建快速、可移植和漂亮的用户界面
+- [Bevy](https://bevyengine.org/)：符合人体工程学、ECS 优先的 Rust 游戏引擎
+
+相对于另一个 Facebook 使用C++开发的库 [yoga](https://github.com/facebook/yoga)，taffy 支持的布局类型更多，并且性能更好。
+
+
 ## 游戏
 
 ### Fyrox : 2D/3D 游戏引擎
