@@ -1808,7 +1808,7 @@ Raphl 的建议摘要：
 更多介绍可参考[GaiaX 官方信息](https://developer.aliyun.com/article/1074185)。
 
 
-### taffy：高性能 Rust 驱动的布局库
+### taffy：高性能的 Rust 驱动的布局库
 
 [taffy](https://github.com/DioxusLabs/taffy) 是一个用 Rust 编写的灵活、高性能、跨平台的 UI 布局库，实现了基于 CSS 的布局算法，0.2.x 版稳定实现了 Flexbox 布局，对 CSS Grid 的支持处于预览状态。
 
