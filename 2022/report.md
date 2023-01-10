@@ -907,7 +907,7 @@ KataOS 提供了一个可验证的安全平台来保护用户的隐私，因为�
 
 ### dora-rs： 机器人中间件项目
 
-[dora](https://github.com/dora-rs/dora) 是一个基于 Rust 的机器人框架，目标是成为一个低延迟、可组合和分布式的数据流，旨在比当前机器人应用标准 ROS/ROS 2 好 10 倍。
+[dora](https://github.com/dora-rs/dora) 是一个基于 Rust 的机器人框架，目标是成为一个低延迟、可组合和分布式的面向 SDV 和 无人驾驶的数据流计算平台。，旨在比当前机器人应用标准 ROS/ROS 2 好 10 倍，成为 ROS/ROS2/Autosar 的替代者。
 
 Rust-os Blog的作者 Philip Opperman是 dora 主力开发者之一 。
 
