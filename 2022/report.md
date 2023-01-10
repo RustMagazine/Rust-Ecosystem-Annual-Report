@@ -905,6 +905,17 @@ KataOS 提供了一个可验证的安全平台来保护用户的隐私，因为�
 最终目标是开源所有 Sparrow，包括所有硬件和软件设计。目前，仅[在 GitHub 上发布 KataOS](https://github.com/AmbiML/sparrow-manifest)的早期版本。
 
 
+### dora-rs： 机器人中间件项目
+
+[dora](https://github.com/dora-rs/dora) 是一个基于 Rust 的机器人框架，目标是成为一个低延迟、可组合和分布式的数据流，旨在比当前机器人应用标准 ROS/ROS 2 好 10 倍。
+
+dora 通信层依赖于 [eclipse-zenoh/zenoh](https://github.com/eclipse-zenoh/zenoh)，关于zenoh 的介绍可以参考文章 [开源产品 | eclipse zenoh 助力雾计算和边缘计算](https://rustmagazine.github.io/rust_magazine_2021/chapter_4/zenoh.html)。
+
+更多文档参考：[https://dora-rs.github.io/dora/](https://dora-rs.github.io/dora/)
+
+并且还配套有基于dora的自动驾驶入门套件 [dora-drives](https://github.com/dora-rs/dora-drives)。
+
+虽然是早期项目，但发展不错，目前正在加入开放原子基金会的过程中，并且在 2023 年春季会基于 dora 开展国际智能驾驶大赛（Openatom Carsmos全球开源自动驾驶算法大赛）。
 
 ### drone-os： 嵌入式操作系统
 
