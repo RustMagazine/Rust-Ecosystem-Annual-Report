@@ -909,7 +909,9 @@ KataOS 提供了一个可验证的安全平台来保护用户的隐私，因为�
 
 [dora](https://github.com/dora-rs/dora) 是一个基于 Rust 的机器人框架，目标是成为一个低延迟、可组合和分布式的数据流，旨在比当前机器人应用标准 ROS/ROS 2 好 10 倍。
 
-dora 通信层依赖于 [eclipse-zenoh/zenoh](https://github.com/eclipse-zenoh/zenoh)，关于zenoh 的介绍可以参考文章 [开源产品 | eclipse zenoh 助力雾计算和边缘计算](https://rustmagazine.github.io/rust_magazine_2021/chapter_4/zenoh.html)。
+Rust-os Blog的作者 Philip Opperman是 dora 主力开发者之一 。
+
+dora 通信层暂时依赖于 [eclipse-zenoh/zenoh](https://github.com/eclipse-zenoh/zenoh)，关于zenoh 的介绍可以参考文章 [开源产品 | eclipse zenoh 助力雾计算和边缘计算](https://rustmagazine.github.io/rust_magazine_2021/chapter_4/zenoh.html)。[dora-rs 的通信层正在被重新设计](https://github.com/dora-rs/dora/pull/162)，目标是将数据面的控制和传输技术分离，比如算子都在一台机器部署的时候，就会用共享内存，这样延时很低。
 
 更多文档参考：[https://dora-rs.github.io/dora/](https://dora-rs.github.io/dora/)
 
